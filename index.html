@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #99a19c;
+            color: #fff;
+        }
+
+        #navbar {
+            height: 50vh;
+            background: #444;
+        }
+
+        #container {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 1.5rem;
+            padding-top: 2rem;
+        }
+
+        li {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        li a {
+            text-decoration: none;
+            color: inherit;
+            padding: 1rem;
+            border-radius: 1.2rem;
+            background: #bc8dd1;
+            display: block;
+        }
+
+        li a:hover {
+            color: inherit;
+            background: #d267f3;
+            border-radius: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul id="container">
+                <li><a href="grid_columns.html" target="_blank">Grid Columns</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
